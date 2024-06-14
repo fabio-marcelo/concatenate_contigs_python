@@ -12,8 +12,10 @@ This Python script concatenates contig sequences from a multi-FASTA file into a 
 ### Running the Script
 
 1. **Clone the repository or download the `concatenate_contigs.py` script.**
+   
+2. **Give full permission (`chmod +rwx concatenate_contigs.py`).**
 
-2. **Execute the script from the command line, providing the required arguments:**
+3. **Execute the script from the command line, providing the required arguments:**
 
    ```sh
    python concatenate_contigs.py <input_fasta> <output_fasta>
